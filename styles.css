@@ -1,0 +1,155 @@
+
+body {
+    background-color: rgb(22, 21, 21);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/* Navigation Menu (Home, About, Portfolio, Blog, Contact) */
+.navMenu ul {
+    color: white;
+    font-family: roboto;
+    list-style: none;
+    padding-left: 0PX;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
+}
+
+.navMenu {
+
+    display:inline-block;
+    width: 100%;
+    
+    
+   
+   
+    
+
+}
+.navMenu li  {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+    line-height: 50px;
+    padding: 3px 3px 3px 3px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    cursor: pointer;
+    transition: .20s;
+    
+}
+
+.navHomeButton:hover{
+    background-color: aliceblue;
+    color: black;
+    
+   
+
+}
+.navAboutButton:hover{
+    background-color: aliceblue;
+    color: black;
+    
+   
+
+}
+.navPortfolioButton:hover{
+    background-color: aliceblue;
+    color: black;
+    
+   
+
+}
+.navBlogButton:hover{
+    background-color: aliceblue;
+    color: black;
+    
+   
+
+}
+.navContactButton:hover{
+    background-color: aliceblue;
+    color: black;
+    
+   
+
+}
+/* navigation Logo */
+.navlogo {
+    color: rgb(0, 0, 0);
+    font-family: roboto;
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 50px;
+    vertical-align: top;
+    margin-left: 20px;
+    padding: 10px 20px 10px 20px;
+    background-color:aliceblue;
+    cursor: pointer;
+    float: left;
+}
+
+.navProfilePicture {
+    width: 60px;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-radius: 60px;
+    transition: .5s;
+    
+}
+
+.navProfilePicture:hover {
+width: 90px;
+
+
+}
+
+
+.ribbonBar {
+    padding-top: 8px;
+    background-color: rgb(15, 15, 15);
+    border-style: ridge;
+    border-color: white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 1px;
+    display: block;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 100px;
+    color: aliceblue;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navMenu ul {
+      margin-top: 0px;
+      
+    }
+    .navMenu li {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+    .navMenu {
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+
+    .navlogo {
+        font-size: 15px;
+        padding: 5px 10px 5px 10px;
+        margin-left: 25px;
+    }
+}
