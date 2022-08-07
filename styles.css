@@ -35,7 +35,7 @@ body {
     margin-right: 50px;
     line-height: 50px;
     padding: 3px 3px 3px 3px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 15px;
@@ -44,6 +44,8 @@ body {
     
 }
 
+
+
 .navHomeButton:hover{
     background-color: aliceblue;
     color: black;
@@ -51,12 +53,26 @@ body {
    
 
 }
+.navHomeButton:active{
+
+    color: black;
+    padding: 15px 15px 50px 15px;
+
+}
+   
+
 .navAboutButton:hover{
     background-color: aliceblue;
     color: black;
     
    
 
+}
+.navAboutButton:active{
+
+    color: black;
+    padding: 15px 15px 50px 15px;
+    
 }
 .navPortfolioButton:hover{
     background-color: aliceblue;
@@ -65,19 +81,31 @@ body {
    
 
 }
+.navPortfolioButton:active{
+
+    color: black;
+    padding: 15px 15px 50px 15px;
+    
+}
 .navBlogButton:hover{
     background-color: aliceblue;
     color: black;
-    
-   
+}
+.navBlogButton:active{
 
+    color: black;
+    padding: 15px 15px 50px 15px;
+    
 }
 .navContactButton:hover{
     background-color: aliceblue;
     color: black;
-    
-   
+}
+.navContactButton:active{
 
+    color: black;
+    padding: 15px 15px 50px 15px;
+    
 }
 /* navigation Logo */
 .navlogo {
@@ -103,7 +131,7 @@ body {
     
 }
 
-.navProfilePicture:hover {
+.navProfilePicture:active {
 width: 90px;
 
 
@@ -119,8 +147,9 @@ width: 90px;
     border-left: 0px;
     border-right: 0px;
     border-width: 1px;
-    display: block;
-    position: fixed;
+    
+    display: inline-block;
+    position: sticky;
     top: 0;
     width: 100%;
     
@@ -153,3 +182,23 @@ width: 90px;
         margin-left: 25px;
     }
 }
+   
+.homePageBlock {
+    margin-top: 60px;
+    background-color: aliceblue;
+    
+}
+
+.selfPhoto {
+        object-fit: cover;
+        width: 1000px;
+        height: 600px;
+        margin-left: 200px;
+        padding-bottom: 0px;
+        display: inline-block;
+    }
+.homeGreeting {
+    display: inline-block;
+}
+
+
