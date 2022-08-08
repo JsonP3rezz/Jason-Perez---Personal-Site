@@ -1,4 +1,4 @@
-
+/* Atributes of page body */
 body {
     background-color: rgb(22, 21, 21);
     margin-top: 0px;
@@ -22,13 +22,8 @@ body {
 
     display:inline-block;
     width: 100%;
-    
-    
-   
-   
-    
-
 }
+
 .navMenu li  {
     display: inline;
     margin-left: 50px;
@@ -41,10 +36,9 @@ body {
     padding-top: 15px;
     cursor: pointer;
     transition: .20s;
-    
 }
 
-
+/* Naviagtion button Atributes */
 
 .navHomeButton:hover{
     background-color: aliceblue;
@@ -57,7 +51,7 @@ body {
 
     color: black;
     padding: 15px 15px 50px 15px;
-
+    
 }
    
 
@@ -107,7 +101,8 @@ body {
     padding: 15px 15px 50px 15px;
     
 }
-/* navigation Logo */
+
+/* navigation Logo Atribuites */
 .navlogo {
     color: rgb(0, 0, 0);
     font-family: roboto;
@@ -182,23 +177,54 @@ width: 90px;
         margin-left: 25px;
     }
 }
+
+/* Home Page */
    
 .homePageBlock {
-    margin-top: 60px;
+    margin-top: 70px;
     background-color: aliceblue;
-    
+    padding-top: 45px;
+    margin-bottom: 70px;
+    box-shadow: 25px 25px 40px   rgb(0, 0, 0);
+    display: block;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .selfPhoto {
-        object-fit: cover;
-        width: 1000px;
-        height: 600px;
-        margin-left: 200px;
-        padding-bottom: 0px;
-        display: inline-block;
-    }
-.homeGreeting {
+    vertical-align: bottom;
+    width: 700px;
+    max-width: 100%;
+    max-height: 100%;
     display: inline-block;
 }
 
+.homeGreeting {
+    font-family: roboto;
+    font-weight: 30 ;
+}
+.nameText {
+    font-weight: 100px;
+    font-size: 4rem;
+    margin-top: 0px;
+    
+}
 
+.imageBlock {
+    display: inline-block;
+    
+}
+.greetingText {
+    display: inline-block;
+    width: 500px;
+    vertical-align: top;
+    margin-left: 3rem;
+    font-family: roboto;
+    margin-top: 100px;
+    
+
+}
+
+.highlightName{
+    color: rgb(4, 63, 22);
+}
