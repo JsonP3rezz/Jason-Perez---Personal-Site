@@ -7,224 +7,101 @@ body {
     margin-right: 0px;
 }
 
-/* Navigation Menu (Home, About, Portfolio, Blog, Contact) */
-.navMenu ul {
-    color: white;
+
+
+
+
+
+
+/* Page Grid Layout */
+.page-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-columns: 1fr;
+    row-gap: 100px;
+}
+
+
+
+
+/* HomePage */
+.home-page-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    background-color: aliceblue;
     font-family: roboto;
-    list-style: none;
-    padding-left: 0PX;
-    float: right;
-    margin-top: 50px;
-    margin-right: 100px;
+    box-shadow: 10px 25px 25px rgb(0, 0, 0);
+    column-gap: 40px;
+    
+    
 }
-
-.navMenu {
-
-    display:inline-block;
+.home-page-photo {
     width: 100%;
-}
-
-.navMenu li  {
-    display: inline;
-    margin-left: 50px;
-    margin-right: 50px;
-    line-height: 50px;
-    padding: 3px 3px 3px 3px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 15px;
-    cursor: pointer;
-    transition: .20s;
-}
-
-/* Naviagtion button Atributes */
-
-.navHomeButton:hover{
-    background-color: aliceblue;
-    color: black;
-    
-   
-
-}
-.navHomeButton:active{
-
-    color: black;
-    padding: 15px 15px 50px 15px;
-    
-}
-   
-
-.navAboutButton:hover{
-    background-color: aliceblue;
-    color: black;
-    
-   
-
-}
-.navAboutButton:active{
-
-    color: black;
-    padding: 15px 15px 50px 15px;
-    
-}
-.navPortfolioButton:hover{
-    background-color: aliceblue;
-    color: black;
-    
-   
-
-}
-.navPortfolioButton:active{
-
-    color: black;
-    padding: 15px 15px 50px 15px;
-    
-}
-.navBlogButton:hover{
-    background-color: aliceblue;
-    color: black;
-}
-.navBlogButton:active{
-
-    color: black;
-    padding: 15px 15px 50px 15px;
-    
-}
-.navContactButton:hover{
-    background-color: aliceblue;
-    color: black;
-}
-.navContactButton:active{
-
-    color: black;
-    padding: 15px 15px 50px 15px;
-    
-}
-
-/* navigation Logo Atribuites */
-.navlogo {
-    color: rgb(0, 0, 0);
-    font-family: roboto;
-    font-style: bold;
-    font-size: 25px;
-    font-weight: 50px;
-    vertical-align: top;
-    margin-left: 20px;
-    padding: 10px 20px 10px 20px;
-    background-color:aliceblue;
-    cursor: pointer;
-    float: left;
-}
-
-.navProfilePicture {
-    width: 60px;
-    margin-left: 10px;
-    vertical-align: middle;
-    border-radius: 60px;
-    transition: .5s;
-    
-}
-
-.navProfilePicture:active {
-width: 90px;
-
-
-}
-
-
-.ribbonBar {
-    padding-top: 8px;
-    background-color: rgb(15, 15, 15);
-    border-style: ridge;
-    border-color: white;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
-    border-width: 1px;
-    
-    display: inline-block;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    
-}
-
-.paragraph {
-    text-align: center;
-    font-size: 100px;
-    color: aliceblue;
-
-}
-
-@media only screen and (max-width: 600px) {
-    .navMenu ul {
-      margin-top: 0px;
-      
-    }
-    .navMenu li {
-        margin-right: 0px;
-        margin-left: 10px;
-    }
-    .navMenu {
-        margin-right: 0px;
-        margin-left: 10px;
-    }
-
-    .navlogo {
-        font-size: 15px;
-        padding: 5px 10px 5px 10px;
-        margin-left: 25px;
-    }
-}
-
-/* Home Page */
-   
-.homePageBlock {
-    margin-top: 70px;
-    background-color: aliceblue;
-    padding-top: 45px;
-    margin-bottom: 70px;
-    box-shadow: 25px 25px 40px   rgb(0, 0, 0);
-    display: block;
-    margin-left: 10rem;
-    margin-right: 10rem;
-}
-
-.selfPhoto {
     vertical-align: bottom;
-    width: 700px;
-    max-width: 100%;
-    max-height: 100%;
-    display: inline-block;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+
+}
+.home-page-text {
+    margin-right: 40px;
+    margin-top: 75px;
+    width: 100%
+
+    
+}
+.greeting-text {
+    font-weight: 1;
+    font-size: 80px;
+    
+   
+}
+.greeting-text-name {
+    font-size: 100px;
+    line-height: 15px;
+    width: 100%;
+    
+}
+.jason-text{
+    color: rgb(8, 94, 8);
+    
+}
+.bio-text {
+    font-size: 25px;
+    width: 800px;
+    
+}
+.resume-text {
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size:21px;
+    color: aliceblue;
+    background-color:rgb(22, 21, 21) ;
+
 }
 
-.homeGreeting {
+
+
+
+/* About Page */
+.about-page-grid {
+    background-color: black;
+    color: aliceblue;
     font-family: roboto;
-    font-weight: 30 ;
-}
-.nameText {
-    font-weight: 100px;
-    font-size: 4rem;
-    margin-top: 0px;
-    
+    box-shadow: 10px 25px 25px rgb(0, 0, 0);
 }
 
-.imageBlock {
-    display: inline-block;
-    
-}
-.greetingText {
-    display: inline-block;
-    width: 500px;
-    vertical-align: top;
-    margin-left: 3rem;
+/* Portfolio Page */
+.portfolio-page-grid {
+    background-color: aliceblue;
     font-family: roboto;
-    margin-top: 100px;
-    
-
+    box-shadow: 10px 25px 25px rgb(0, 0, 0);
 }
 
-.highlightName{
-    color: rgb(4, 63, 22);
+/* Contact Page */
+.contact-page-grid {
+    background-color: black;
+    color: aliceblue;
+    font-family: roboto;
+    box-shadow: 10px 25px 25px rgb(0, 0, 0);
 }
