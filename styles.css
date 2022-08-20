@@ -19,6 +19,7 @@ body {
     grid-template-rows: 1fr 1fr 1fr 1fr ;
     grid-template-columns: 1fr;
     row-gap: 100px;
+    width: 100%;
 }
 
 
@@ -34,21 +35,26 @@ body {
     column-gap: 40px;
     
     
+    
+    
 }
 .home-page-photo {
     width: 100%;
-    vertical-align: bottom;
+    
     padding-bottom: 0px;
     margin-bottom: 0px;
-
+    display: flex;
+}
+.home-page-photo-container {
+    display: flex;
+    align-items: flex-end;
 }
 .home-page-text {
     margin-right: 40px;
     margin-top: 75px;
+    
     margin-bottom: 40px;
     width: 100%
-    
-
     
 }
 .greeting-text {
@@ -86,6 +92,15 @@ body {
     text-decoration: underline;
     cursor: pointer;
     
+}
+@media only screen and (max-width: 1200px) {
+    .home-page-photo-container {
+        display: none;
+
+    }
+    .home-page-text {
+        margin-left: 60px;
+    }
 }
 
 
