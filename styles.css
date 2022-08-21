@@ -32,11 +32,7 @@ body {
     background-color: white;
     font-family: roboto;
     box-shadow: 10px 25px 25px rgb(0, 0, 0);
-    column-gap: 40px;
-    
-    
-    
-    
+    column-gap: 40px; 
 }
 .home-page-photo {
     width: 100%;
@@ -93,6 +89,8 @@ body {
     cursor: pointer;
     
 }
+
+/* responsive media queries for mobile devices  */
 @media only screen and (max-width: 1200px) {
     .home-page-photo-container {
         display: none;
@@ -101,6 +99,23 @@ body {
     .home-page-text {
         margin-left: 60px;
     }
+    .bio-text {
+        font-size: 80px;
+    }
+    .greeting-text-name {
+        font-size: 150px;
+        line-height: 200px;
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .resume-text {
+        font-size: 40px;
+    }
+    .greeting-text {
+        font-size: 100px;
+        line-height: 0px;
+    }
+    
 }
 
 
